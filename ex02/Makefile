@@ -15,7 +15,7 @@ $(NAME): $(OBJS)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) home_shrubbery 
 
 fclean: clean
 	rm -f $(NAME)

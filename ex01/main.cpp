@@ -14,7 +14,7 @@ int main() {
         std::cout << form1 << std::endl;
 
         // Test form signing with bureaucrat of insufficient grade
-        Bureaucrat low("Low", 60);
+        Bureaucrat low("Lowman", 60);
         low.signForm(form1);
         std::cout << form1 << std::endl;
 
